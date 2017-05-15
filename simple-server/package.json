@@ -1,0 +1,19 @@
+{
+  "name": "api-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "express": "^4.13.3",
+    "body-parser": "^1.15.2",
+    "node-uuid": "^1.4.7",
+    "busboy": "^0.2.13"
+  },
+  "scripts": {
+    "start": "node app -port 3000"
+  },
+  "author": "xuchao",
+  "license": "ISC"
+}
